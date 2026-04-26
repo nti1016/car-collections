@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #131720;
+    font-family: sans-serif;
+    
+
+}
+
+/*THE HEADER / NAVBAR*/
+a{
+    text-decoration: none;
+    color: #ffff;
+    transition-duration: all 0.3ms ease;
+    text-transform: uppercase;
+}
+header{
+    
+    border-radius: 10px;
+    background-color: #151f30;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+}
+.nav-link{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-right: 10px;
+    list-style: none;
+    animation: lightspeedInLeft 1.8s infinite;
+    
+}
+
+
+.logo:hover{
+    background-color: #131720;
+    color:#195bcc;
+    padding: 10px;
+    border-radius: 10px;
+}
+ .nav-link a:hover{
+    background-color: #131720;
+    color:#195bcc;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/*HOME PAGE STYLING*/
+
+h3{
+    color: white;
+  
+}
+.top-nav{
+    overflow: hidden;
+    background-color: #131720;
+    padding: 10px;
+}
+.top-nav a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+
+}
+
+.top-nav .search-container{
+    float: right;
+}
+
+form{
+    background-color: #151f30;
+    width: 300px;
+    height: 43px;
+    border-radius: 11px;
+    display: flex;
+    align-items: center;
+}
+
+input{
+   all: unset;
+    font: 15px system-ui;
+    color: #ffff;
+    height: 100%;
+    width: 100%;
+    padding: 6px 9px;
+}
+
+.thumbnail{
+    height: 350px;
+    width: 300px;
+    border-radius: 19px;
+}
+.colum {
+    float: left;
+    width: 30%;
+    padding: 10px 10px;
+   width:right;
+}
+
+.card{
+    border-radius: 19px;
+    padding: 15px;
+    text-align: center;
+    background-color: #151f30;
+    
+}
+.collections{
+    display: grid;
+    justify-content: space-between;
+     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+   justify-content: center;
+   gap: 1em;
+
+}
+/*THE FOOTER*/
+footer{
+    color: #ffff;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: none;
+    background-color: #151f30;
+    padding: 10px;
+    
+
+}
+.footer-link a{
+    color: #60e189;
+}
+.footer-link a:hover{
+    background-color: #131720;
+    color:#195bcc;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+/*THE ABOUT PAGE STYLING*/
